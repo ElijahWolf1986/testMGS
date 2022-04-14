@@ -1,0 +1,64 @@
+@import url('./components/css/popup/popup.css');
+
+.page {
+  width: 1440px;
+  margin: auto;
+  height: 50vh;
+}
+
+.table_section {
+  border: 1px solid black;
+  width: 100%;
+  margin: 100px auto;
+}
+
+.table {
+  text-align: center;
+}
+
+.template_tr {
+  border: none;
+}
+
+.template_td {
+  border: none;
+}
+
+.template_input {
+  border: none;
+  border-radius: 16px;
+  text-align: center;
+}
+.template_select {
+  width: 100px;
+  border: none;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.template_button {
+  color: black;
+  cursor: pointer;
+  background-color: blue;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 10px;
+  border-radius: 16px;
+  border: none;
+}
+
+.template_button:hover {
+  opacity: 0.8;
+  color: red;
+}
+
+.template_input_valueoftype {
+  border: none;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.answer_textarea {
+  width: 100%;
+}
